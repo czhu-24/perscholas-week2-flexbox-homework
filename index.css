@@ -1,0 +1,40 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color: goldenrod;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+.navbar > div {
+    padding: 16px;
+}
+
+#profile-pic {
+    height: 200px;
+    width: auto;
+    display: inline;
+}
+
+.about-biz {
+    display: flex;
+}
+
+.biz-flex-1, .biz-flex-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+}
