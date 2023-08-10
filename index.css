@@ -29,12 +29,50 @@ body {
     flex-direction: column;
 }
 
+.biz-flex-2 {
+    justify-content: space-between;
+}
+
+.biz-flex-2 > * {
+    margin: 0;
+}
+
 .lists {
     display: flex;
     flex-direction: row;
 }
 
+.lists > h3 {
+    font-weight: bolder;
+}
+
 .images-container {
     display: flex;
     justify-content: space-around;
+    margin: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+form > * {
+    margin: 16px;
+}
+
+form label {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+form input {
+    margin-top: 16px;
+    padding-top: 0;
+}
+
+form button {
+    width: 50%;
+    margin: 0 auto;
 }
